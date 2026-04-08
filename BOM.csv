@@ -1,0 +1,29 @@
+Item,Quantity,Value/Part,Description,Package,Notes
+U1,1,PIC18F2550-I/P,Microcontroller DIP-28,DIP-28,Main MCU
+U1-Socket,1,28-pin IC socket,DIP socket,DIP-28,For MCU
+J1,1,USB-C Receptacle (USB2.0),USB connector,USB-C TH/SMD,Power + data
+J2,1,Pin Header 1x6,ICSP Header,2.54mm,Programming header
+Y1,1,20MHz Crystal,Crystal oscillator,HC-49,Clock
+C1-C2,2,15pF,Ceramic capacitor,Through-hole,Crystal caps
+C3-C4,2,100nF,Ceramic capacitor,Through-hole,Decoupling
+C5-C6,2,47uF 16V,Electrolytic capacitor,Radial,Power smoothing
+C7,1,10uF 16V,Electrolytic capacitor,Radial,Power
+C8,1,470nF,Ceramic capacitor,Through-hole,USB filter
+R1-R2,2,22Ω,Resistor,Through-hole,USB data lines
+R3-R4,2,5.1kΩ,Resistor,Through-hole,USB-C CC pull-down
+R5-R7,3,33Ω,Resistor,Through-hole,General
+R8,1,100Ω,Resistor,Through-hole,General
+R9,1,1kΩ,Resistor,Through-hole,General
+R10,1,2.7kΩ,Resistor,Through-hole,General
+R11-R12,2,4.7kΩ,Resistor,Through-hole,General
+R13-R15,3,10kΩ,Resistor,Through-hole,General
+R16,1,100kΩ,Resistor,Through-hole,General
+R17-R18,2,330Ω,Resistor,Through-hole,LED current limit
+D1-D2,2,1N4148,Diode,DO-35,Signal diode
+Q1-Q3,3,BC548,NPN Transistor,TO-92,VPP circuit
+Q4,1,BC557,PNP Transistor,TO-92,VPP circuit
+L1,1,680uH,Inductor,Axial,Boost circuit
+LED1,1,Green LED,Indicator LED,3mm,Status
+LED2,1,Red LED,Indicator LED,3mm,Status
+SW1,1,Tactile Switch,Push button,Through-hole,User input
+HW1,4,M3x10mm Screw,Machine screw,Metal,Case assembly
