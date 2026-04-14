@@ -18,3 +18,6 @@ This is what brought me to my project, I was wondering, how could I improve the 
 Which brings me to my project, QuackyGrammer ✨
 
 The QuackyGrammer is a USB Type C powered, portable, ISCP connecting PIC Programmer, powered by the mighty PIC18F2550. The Programmer is aimed to make PIC Programming easy with a flawless, PICKIT 2 inspired connecting system, and a very portable USB Type C connection port. The duck theme is inspired by a new nickname I recently acquired, Quackery, and as you can tell by my other projects, I stick with this theme now.
+
+The Bill of Materials is in BOM.csv
+The firmware for this project, is uploading the PK2V023200.hex into the PIC18F2550 with the PICKITV2 programmer software.
