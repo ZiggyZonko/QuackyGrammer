@@ -12,7 +12,9 @@ Recently, I rediscovered a collection of PIC Microcontrollers and was fascinated
 This is what brought me to my project, I was wondering, how could I improve the programming of PIC Microcontrollers while making it portable, and simplistic. I stumbled upon the PICKIT 2 and learnt about the difference between ZIF and ISCP sockets, learning that ISCP was wayyy more accessible, and may be suitable for my project. After countless hours of planning, wondering, and researching I agreed on things to include in my project
 
 - USB Type C Connector ~ Usually on programmers they use USB Type B because of it's constant power rather than being wired to power.
+  
 - PIC18F2550 ~ The heart and brains of the project. The K150 uses PIC16F628A but I wanted to add further programming capabilities and not include excess chips, like on the K150.
+  
 - Connector ~ The defining factor of the PICKIT 2 is the ability to plug about 5 wires into the microcontroller, and upload your code from a PICKIT application, which is exactly what I can replicate with this project, for even more accessibility.
 
 Which brings me to my project, QuackyGrammer ✨
@@ -20,4 +22,5 @@ Which brings me to my project, QuackyGrammer ✨
 The QuackyGrammer is a USB Type C powered, portable, ISCP connecting PIC Programmer, powered by the mighty PIC18F2550. The Programmer is aimed to make PIC Programming easy with a flawless, PICKIT 2 inspired connecting system, and a very portable USB Type C connection port. The duck theme is inspired by a new nickname I recently acquired, Quackery, and as you can tell by my other projects, I stick with this theme now.
 
 The Bill of Materials is in BOM.csv
+
 The firmware for this project, is uploading the PK2V023200.hex into the PIC18F2550 with the PICKITV2 programmer software.
